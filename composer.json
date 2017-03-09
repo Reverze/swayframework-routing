@@ -1,0 +1,16 @@
+{
+    "name": "rev/sway-framework-routing",
+    "description": "SwayFramework Httpd Component",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sway\\Component\\Route\\": "src/"
+        }
+    }
+}
