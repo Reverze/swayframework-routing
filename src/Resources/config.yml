@@ -1,0 +1,14 @@
+framework:
+    component.init:
+        routeDirective:
+            controller: Sway\Component\Route\Directive\Init
+            require:
+                - controllerInvoker
+        router:
+            controller: Sway\Component\Route\Init
+            require:
+                - routeDirective
+    event.trigger:
+        onFrameworkInited:
+            component: 
+                - router.launch()
