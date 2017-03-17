@@ -1,6 +1,6 @@
 {
     "name": "rev/sway-framework-routing",
-    "description": "SwayFramework Httpd Component",
+    "description": "Swayframework Router Component",
     "type": "sf-package",
     "authors": [
         {
@@ -8,6 +8,10 @@
             "email": "hawkmedia24@gmail.com"
         }
     ],
+    "support": {
+        "email": "hawkmedia24@gmail.com"
+    },
+    "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
             "Sway\\Component\\Route\\": "src/"
