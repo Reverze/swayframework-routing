@@ -77,7 +77,9 @@ class Router extends DependencyInterface
     
     public function launch(EventArgs $args, $object)
     {
-        $this->executeRoute();
+        if (PHP_SAPI !== 'cli'){
+            $this->executeRoute();
+        }
     }
 }
 
